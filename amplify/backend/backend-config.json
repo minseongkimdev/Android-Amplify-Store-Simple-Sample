@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "amplifytest2a904f52a": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "S3friendlyName": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
